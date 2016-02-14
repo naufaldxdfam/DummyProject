@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CCB03D3-AB7C-48F3-8A85-D9528C536364}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bis_Mania_Ticketing</RootNamespace>
+    <AssemblyName>Bis Mania Ticketing</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\MetroFramework\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\..\MetroFramework\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BMT.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BMT.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="frBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frBus.Designer.cs">
+      <DependentUpon>frBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frBusStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frBusStation.Designer.cs">
+      <DependentUpon>frBusStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLookup.Designer.cs">
+      <DependentUpon>frLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMenuBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMenuBus.Designer.cs">
+      <DependentUpon>frMenuBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMenuRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMenuRoute.Designer.cs">
+      <DependentUpon>frMenuRoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frPassenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPassenger.Designer.cs">
+      <DependentUpon>frPassenger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frPricing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPricing.Designer.cs">
+      <DependentUpon>frPricing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frRoute.Designer.cs">
+      <DependentUpon>frRoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frTicketType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frTicketType.Designer.cs">
+      <DependentUpon>frTicketType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMain.Designer.cs">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frOtobus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frOtobus.Designer.cs">
+      <DependentUpon>frOtobus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frWelcome.Designer.cs">
+      <DependentUpon>frWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation.cs" />
+    <None Include="BMT.dbml.layout">
+      <DependentUpon>BMT.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frBus.resx">
+      <DependentUpon>frBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frBusStation.resx">
+      <DependentUpon>frBusStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLookup.resx">
+      <DependentUpon>frLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMenuBus.resx">
+      <DependentUpon>frMenuBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMenuRoute.resx">
+      <DependentUpon>frMenuRoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPassenger.resx">
+      <DependentUpon>frPassenger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPricing.resx">
+      <DependentUpon>frPricing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frRoute.resx">
+      <DependentUpon>frRoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frTicketType.resx">
+      <DependentUpon>frTicketType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMain.resx">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frOtobus.resx">
+      <DependentUpon>frOtobus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frWelcome.resx">
+      <DependentUpon>frWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="BMT.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>BMT.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

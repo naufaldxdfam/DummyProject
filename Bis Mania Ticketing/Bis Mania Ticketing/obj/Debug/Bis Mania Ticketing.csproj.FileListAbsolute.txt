@@ -1,0 +1,23 @@
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\bin\Debug\Bis Mania Ticketing.exe.config
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\bin\Debug\Bis Mania Ticketing.exe
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\bin\Debug\Bis Mania Ticketing.pdb
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.Properties.Resources.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis Mania Ticketing.csproj.GenerateResource.Cache
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis Mania Ticketing.exe
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis Mania Ticketing.pdb
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\bin\Debug\MaterialSkin.dll
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frMain.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\bin\Debug\MetroFramework.Design.dll
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\bin\Debug\MetroFramework.dll
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frWelcome.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frOtobus.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frTicketType.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frMenuBus.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frBusStation.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frMenuRoute.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frRoute.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frLookup.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frBus.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frPricing.resources
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis Mania Ticketing.csprojResolveAssemblyReference.cache
+D:\Project\Kelas XII\C#\Ukom\Bis Mania Ticketing\Bis Mania Ticketing\obj\Debug\Bis_Mania_Ticketing.frPassenger.resources
